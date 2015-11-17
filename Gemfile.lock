@@ -37,7 +37,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.10.0)
     erubis (2.7.0)
     execjs (2.6.0)
     font-awesome-sass (4.2.0)
@@ -57,7 +57,7 @@ GEM
     mime-types (1.25.1)
     minitest (5.8.2)
     multi_json (1.11.2)
-    pg (0.18.3)
+    pg (0.18.4)
     polyglot (0.3.5)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -93,7 +93,7 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
-    spring (1.4.1)
+    spring (1.4.2)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
