@@ -1,6 +1,6 @@
 <div class="row">
+    <h1 class ="text-center">Contact us at Dev Match</h1>
     <div class="col-md-4 col-md-offset-4">
-        <h1 class ="text-center">Contact Us</h1>
         <p class="text-center">Reach out if you have any questions or comments.</p>
         <div class="well">
             <%= form_for @contact do |f| %>
@@ -19,7 +19,7 @@
                     <%= f.text_area :comments, class:"form-control" %>
                 </div>
                 
-                <%= f.submit 'Submit', class: 'btn btn-default' %>
+                <%= f.submit 'Submit', class: 'btn btn-primary' %>
             <% end %>
         </div>
     </div>
