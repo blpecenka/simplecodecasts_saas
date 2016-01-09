@@ -1,7 +1,10 @@
+<div class="jumbotron text-center">
+    <h1 class="text-center">Dev Match Community</h1>
+     <p class="text-center">Welcome to the Dev Match Community. Users must fill out a profile in order to be visible in The Community.</p>
+</div>
+
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
-    <h1 class="text-center">Dev Match Community</h1>
-    <p class="text-center">Welcome to the Dev Match Community. Users must fill out a profile in order to be visible in the community.</p>
     <ul class="list-unstyled">
       <% @users.each do |user| %>
         <% if user.profile %>
@@ -32,3 +35,9 @@
     </ul>
   </div>
 </div>
+<!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Feel free to create your own profile or view seeded information. </br>All profiles are depicted with Pro Membership for your convenience. </br>Please do not delete or alter any seed information.</p>
+    </div>
+  </footer>
