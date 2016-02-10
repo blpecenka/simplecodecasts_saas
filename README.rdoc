@@ -4,26 +4,44 @@ Coder Manual Project Application
 Subscription Based web application
 http://codermanual.com
 
-Things you may want to cover:
+General Usage Notes
+----------------------------------------
+-Ruby on Rails application was developed by Brittany Pecenka with support from Coder Manual 2015. Additional intellectual freedom taken by Brittany Pecenka in design, layout, and concept. Original course content and information can be found at codermanual.com and udemy.com.
 
-* Ruby version
+-DevMatch is an application is for a development company interested in connecting developers, entrepreneurs, and investors though an online portal. The site includes sample users, login/logout capabilities, and credit card payment plans through Stripe Integration.
 
-* System dependencies
+-DevMatch is fully responsive and provides users with a Community of people to connect with. 
 
-* Configuration
+Versions
+-------------------------
+-Ruby -v 2.2.1
 
-* Database creation
+-Rails -v 4.2.0
 
-* Database initialization
+Main Programming Tools
+---------------------------------------
+-Sass
 
-* How to run the test suite
+-Bootstrap
 
-* Services (job queues, cache servers, search engines, etc.)
+-jQuery
 
-* Deployment instructions
+-SQL
 
-* ...
+-Devise -v 3.4.1 
+
+-Stripe Integration -v 1.16.1
+
+-For full list of gems used, see Gemfile
+
+Integrated Development Environment Used
+---------------------------------------------
+-Cloud9 
+
+Additional Information
+----------------------------------------------
+-DevMatch is not currently live.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
